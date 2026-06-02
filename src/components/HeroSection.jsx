@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Spline from "@splinetool/react-spline";
 
 
 const HeroSection = () => {
@@ -18,7 +19,7 @@ const HeroSection = () => {
                 }}
                 className="text-5xl md:text-7xl lg:text-8xl font-bold z-10 mb-6">
                 {/* Building Fast <br /> Reliable Results  */}
-                Logic at the Core. <br />Innovation on the Screen
+                Logic at the Core. <br />Innovation on the <br /> Screen
             </motion.h1>
 
             <motion.p 
@@ -36,6 +37,9 @@ const HeroSection = () => {
             </motion.p>
         </div>
         
+        {/* Right Section */}
+        <Spline className="absolute xl:right-[-28%] right-0 top-[-20%] lg:top-0" scene="https://prod.spline.design/ZH0N0X5EF3nNQdC1/scene.splinecode"/>
+
     </section>
   )
 }

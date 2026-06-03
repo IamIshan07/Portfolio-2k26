@@ -197,7 +197,7 @@ const ProjectSection = () => {
       </div>
 
       {/*  Horizontal scroll section  */}
-      <div ref={triggerRef} className='overflow-hiddent opacity-0'>
+      <div ref={triggerRef} className='overflow-hidden opacity-0'>
         <div ref={horizontalRef} className='horizontal-section flex md:w-[400%] w-[420%]'>
 
         {ProjectImages.map((project) => (

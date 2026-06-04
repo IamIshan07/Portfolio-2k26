@@ -22,7 +22,7 @@ export default function App() {
 
     // Clean up ScrollTrigger on component unmount
     return () => {
-      ScrollTrigger.getAll().forEach((trigger) =>trigger.kill () )
+      ScrollTrigger.getAll().forEach((trigger) => trigger.kill ())
     }
   }, [])
   return (
